@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Easy Schedule</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+	</head>
+	<body class="bodyLogin">
+		<p class="textlogin"> Welcome to </p>
+			<div class="center">
+			<h1>Easy Schedule</h1>
+			<br>
+			<form action="/Calendario" method="post">
+				<div class="center">
+				<label for="User">Usuario</label>
+				<br>
+				<input type="text" name="name_input" required>
+				</div>
+				<div>
+				<label for="User">Senha</label>
+				<br>
+				<input type="password" name="password" required>
+				</div>
+				<input type="submit" value="Login" id="greet">
+			</form>
+			<form action="/cadastro" method="post">
+				<input type="submit" value="Cadastrar" id="greet">
+			</form>
+		</div>
+	</body>
+</html>
