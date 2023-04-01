@@ -8,30 +8,30 @@
 	<body>
 		<p> Welcome to </p>
 			<div class="center">
-			<h1>Easy Schedule</h1>
+			<h1>Organization+</h1>
 			<br>
-			<form action="/Calendario" method="get">
+			<form action="/cadastro" method="POST">
 				<div>
 				<label for="User">Nome do Usuario</label>
 				<br>
-				<input type="text" name="name_input" required>
+				<input type="text" name="nome_input" required>
 				</div>
 				<div>
 				<label for="User">Email</label>
 				<br>
-				<input type="text" name="name_input" required>
+				<input type="text" name="email_input" required>
 				</div>
 				<div>
 				<label for="User">Senha</label>
 				<br>
-				<input type="password" name="password">
+				<input type="password" name="senha_input" required>
 				</div>
-				<input type="submit" value="Registrar" id="greet">
+				<input type="submit" value="Submit" id="greet">
 				<br>
-			</div>
-		</form>
+			</form>
 				<form action="/login" method="get">
 					<input type="submit" value="Voltar" id="greet">
 				</form>
+			</div>
 	</body>
 </html>
